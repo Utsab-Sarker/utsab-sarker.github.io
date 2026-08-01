@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Page Not Found</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      width:100%;
+      height:100vh;
+      overflow:hidden;
+      background:black;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      position:relative;
+      font-family:Arial, sans-serif;
+    }
+
+    img{
+  width:100vw;
+  height:100vh;
+  object-fit:contain;
+  background:black;
+    }
+
+    .back-btn{
+  position:absolute;
+  top:20px;
+  left:50%;
+  transform:translateX(-50%);
+  text-decoration:none;
+  background:white;
+  color:black;
+  padding:12px 20px;
+  border-radius:10px;
+  font-weight:bold;
+  transition:0.3s;
+      box-shadow:0 4px 15px rgba(0,0,0,0.3);
+}
+
+.back-btn:hover{
+  background:#ddd;
+}
+  </style>
+</head>
+
+<body>
+
+  <!-- Your image -->
+  <img src="404.gif" alt="404 Image">
+
+  <!-- Go Back Button -->
+  <a class="back-btn" href="/">Go Back</a>
+
+</body>
+</html>
